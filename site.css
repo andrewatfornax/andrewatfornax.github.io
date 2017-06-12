@@ -3,15 +3,42 @@ body {
     background-size: cover;
 }
 
+.panel-float {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 260px;
+}
+
+.panel-float p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
+    margin: 5px 2px;
 }
 
 .fa-facebook {
     background: #3B5998;
     color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-github {
+    
 }
